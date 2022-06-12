@@ -1,0 +1,91 @@
+DATA TYPES:
+*Basic
+    .bool(true/false)
+    .int
+    .float
+    .complex
+*Extended
+    .list
+    .tuple
+    .set
+    .dictionary
+    .array
+    .str
+
+
+OPERATORS:
+1. Assignment operators(=)
+    ex:
+        var1 = 1123
+        var2 = True
+        var3 = 121+21
+2. Multiple Assignment operators (= = =)
+    ex:
+        var10 = var11 = var12 = 54
+        print(var10, var11, var12)
+3. Arithmetic operators(+,-,*,/,//,%,**)
+    / = float division
+    // = integer division
+    % = mod
+    ** = power
+    ex:
+        var13 = 121
+        var14 = 121
+        var15 = var13 + var14
+        print(var15)
+4. Relational operators
+    a. Equals to(==)
+        ex:
+        print(10==5)
+    b. Not Equals to (!=)
+        ex:
+        print(10!=5)
+    c.Greater than(>)
+    d.Less than(<)
+    e.Greater than or equals to (>=)
+    f.Less than or equals to(<=)
+5. Logical(and, or, not)    
+
+BASIC IO(Input/Output):
+
+    .Output
+
+
+Control Statement
+if Statement
+syntax:
+        if condition:
+            Statement(S)
+
+if elif Statement
+syntax:
+        if condition1 :
+            ......
+        elif condition2 :
+            ......
+        else condition3 :
+            .....
+
+Nested if Statement:
+syntax:
+        if condition1 :
+            if condition2:
+                ........
+                
+
+
+
+9851141514
+Text: Python -8
+
+
+LOOPING Statement
+
+#Execute statements Multipletimes
+
+#Loop Design
+1. Start Value
+2. STop Value
+3. condition
+4. statements
+5. MOdifier
